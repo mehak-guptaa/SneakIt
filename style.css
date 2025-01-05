@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+}
+
+#updates {
+    display: flex;
+    background-color: rgb(213, 252, 255);
+    padding: 10px;
+    justify-content: center;
+    font-family: monspace;
+}
+
+#up {
+    color: rgb(0, 60, 60);
+    &:hover {
+        color: darkblue;
+        cursor: pointer;
+    }
+}
+.logo:hover {
+    cursor: pointer;
+}
+
+#search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#search-input {
+    padding: 10px;
+    border-radius: 50px 0px 0px 50px;
+    border: 1px solid black;
+    width: 700px;
+    height: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 10px 10px 10px;
+}
+
+#search>button {
+    padding: 10px;
+    border-radius: 0px 50px 50px 0px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 47px;
+    text-align: center;
+    margin-top: 20px;
+    &:hover{
+        background-color: rgba(211, 211, 211, 0.38);
+        cursor: pointer;
+    }
+}
+
+#search img {
+    margin-top: 30px;
+}
+
+#user {
+    margin-top: 40px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#cart {
+    margin-bottom: 3.5px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#menu-bar {
+    display: flex;
+    font-family: tahoma;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.582);
+}
+
+#menu {
+    display: flex;
+    gap: 25px;
+}
+
+#menu-bar h4 {
+    padding: 10px;
+    &:hover {
+        border-radius: 50px;
+        background-color: rgba(198, 198, 198, 0.356);
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+
+#items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 10px;
+    margin: 10px 20px 20px 10px;
+    justify-content: center;
+    align-content: center;
+    object-fit: contain;
+    text-align: center;
+}
+
+#items img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px;
+    font-family: Geneva;
+    padding: 10px;
+}
+
+#items h3 {
+    text-align: center;
+    text-decoration: underline;
+    &:hover {
+        color:crimson;
+        cursor: pointer;
+    }
+}
+
+.logo {
+    width: 150px;
+}
+
+.mens-collection {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 60%;
+    text-align: center;
+    padding: 135px 25px 135px 20px;
+    background-image: url('https://i.pinimg.com/736x/8d/c6/fe/8dc6fe5dc467c57812c6a7061912e786.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mens-collection h1 {
+    font-family: roboto ;
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.item img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: 10px;
+
+}
+
+.products {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+    gap: 0px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+#men {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 10px 80px 20px;
+    text-align: center;
+}
+.item {
+    border-radius: 10px;
+}
+.item:hover {
+    transform: translateY(-8px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#women {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 10px 70px 20px;
+    text-align: center;
+}
+
+.womens-collection {
+    height: 100px;
+    width: 65%;
+    text-align: center;
+    padding: 135px 25px 135px 20px;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/218/432/desktop-wallpaper-flower-on-dark-backgrounds-spring-dark-thumbnail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.womens-collection h1 {
+    font-family: roboto ;
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#join {
+    margin: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+#join input {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 400px;
+    border: 1px solid lightgray;
+}
+
+#join button {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    &:hover {
+        color: rgb(2, 49, 66);
+        background-color: white;
+    }
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+    gap: 20px;
+    justify-content: start;
+    margin-bottom: 40px;
+}
+
+.about, .customer-service, .resources, .explore {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 0px 0px 0px 20px;
+    &:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+#footer2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-top: 1px dashed gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
